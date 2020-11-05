@@ -1,17 +1,15 @@
 # Flat Valley
-![logo](https://user-images.githubusercontent.com/17229643/55247565-50245180-528b-11e9-9947-aa3c54ea05bb.png)  
-
 flat-valley is my theme for [Hugo](https://gohugo.io/) and a fork of [pulp](https://github.com/koirand/pulp) [(MIT)](https://github.com/koirand/pulp/blob/master/LICENSE.md)
 
 ## Installation
 If your site is also under version control using git, the easiest way to install this theme is to add it as a submodule. If you have not created a git repo for your project yet, you need to run `git init` beforehand. Inside the folder of your Hugo site, run the following command.
 ```
-git submodule add https://github.com/johanncopeland/flat-valley.git themes/pulp
+git submodule add https://github.com/johanncopeland/flat-valley.git themes/flat
 ```
 
 Alternatively, you can clone the theme into your project.
 ```
-git clone https://github.com/johanncopeland/flat-valley.git themes/pulp
+git clone https://github.com/johanncopeland/flat-valley.git themes/flat
 ```
 
 ## Configuration
@@ -28,4 +26,4 @@ If you have cloned the theme, you can run `git pull` inside the theme folder.
 
 # Included third-party software
 [Pulp](https://github.com/koirand/pulp)
-[License: MIT](licenses/pulp-MIT.md)
+[(License: MIT)](licenses/pulp-MIT.md)
