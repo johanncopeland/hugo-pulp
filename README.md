@@ -25,3 +25,7 @@ git submodule update --remote --rebase
 ```
 
 If you have cloned the theme, you can run `git pull` inside the theme folder.
+
+# Included third-party software
+[Pulp](https://github.com/koirand/pulp)
+[License: MIT](licenses/pulp-MIT.md)
