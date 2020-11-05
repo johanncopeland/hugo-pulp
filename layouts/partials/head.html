@@ -12,6 +12,14 @@
   <meta name="author" content="{{ .Site.Params.Author }}" />
   <link rel="shortcut icon" type="image/x-icon" href="/img/{{ .Site.Params.favicon }}">
 
+  <!-- Materialize CSS -->
+  {{ $materialize_style := resources.Get "css/materialize/materialize-style.css" }}
+  {{ $materialize := resources.Get "css/materialize/materialize.css" }}
+  {{ $materialize_minified := resources.Get "css/materialize/materialize.min.css" }}
+
+  <!-- Google Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <!-- css -->
   {{ $style := resources.Get "css/style.css" }}
   {{ $markdown := resources.Get "css/markdown.css" }}

@@ -36,4 +36,8 @@
   {{ $search := resources.Get "js/search.js" }}
   {{ $js := slice $jquery $mark $lunr $search | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint }}
   <script src="{{ $js.Permalink }}"></script>
+  <!-- Materialize CSS -->
+  {{ $materialize_init := resources.Get "js/materialize/init.js" }}
+  {{ $materialize_js := resources.Get "js/materialize/materialize" }}
+  {{ $materialize_minified_js := resources.Get "js/materialize/materialize.min.js" }}
 {{ end }}
