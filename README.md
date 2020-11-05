@@ -1,6 +1,4 @@
 # Flat Valley
-![logo](https://user-images.githubusercontent.com/17229643/55247565-50245180-528b-11e9-9947-aa3c54ea05bb.png)  
-
 flat-valley is my theme for [Hugo](https://gohugo.io/) and a fork of [pulp](https://github.com/koirand/pulp) [(MIT)](https://github.com/koirand/pulp/blob/master/LICENSE.md)
 
 ## Installation
